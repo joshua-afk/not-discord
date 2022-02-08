@@ -1,0 +1,28 @@
+{
+  "name": "not-discord",
+  "version": "1.0.0",
+  "description": "Realtime chat app that looks & functions like discord.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshua-afk/not-discord.git"
+  },
+  "author": "Joshua Ryan Velasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshua-afk/not-discord/issues"
+  },
+  "homepage": "https://github.com/joshua-afk/not-discord#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
